@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 330px;
+  margin: 0;
+}
+
+#id {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+input {
+  box-sizing: border-box;
+  width: 330px;
+  height: 32px;
+  background-color: black;
+  color: #fff;
+}
+
+button {
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 2em;
+  width: 23%;
+  vertical-align: middle;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn1 {
+  width: 50%;
+}

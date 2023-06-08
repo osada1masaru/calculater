@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div id="clac">
+      <div>
+        <input readonly id="result" type="text" value="0">
+      </div>
+    </div>
+
+    <div>
+      <button onclick="num_click(this.innerHTML)">7</button>
+      <button onclick="num_click(this.innerHTML)">8</button>
+      <button onclick="num_click(this.innerHTML)">9</button>
+      <button onclick="ope_click(this.innerHTML)">+</button>
+    </div>
+
+    <div>
+      <button onclick="num_click(this.innerHTML)">4</button>
+      <button onclick="num_click(this.innerHTML)">5</button>
+      <button onclick="num_click(this.innerHTML)">6</button>
+      <button onclick="ope_click(this.innerHTML)">-</button>
+    </div>
+
+    <div>
+      <button onclick="num_click(this.innerHTML)">1</button>
+      <button onclick="num_click(this.innerHTML)">2</button>
+      <button onclick="num_click(this.innerHTML)">3</button>
+      <button onclick="ope_click(this.innerHTML)">*</button>
+    </div>
+
+    <div>
+      <button onclick="num_click(this.innerHTML)">0</button>
+      <button onclick="num_click(this.innerHTML)">00</button>
+      <button onclick="num_click(this.innerHTML)">.</button>
+      <button onclick="ope_click(this.innerHTML)">/</button>
+    </div>
+
+    <div class="btn">
+      <button class="btn1" onclick="c_click(this.innerHTML)">AC</button>
+      <button class="btn1" onclick="equal_click()">=</button>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
