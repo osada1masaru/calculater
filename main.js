@@ -49,5 +49,5 @@ function equal_click(){
 }
 
 function is_ope_last(){
-  return ["+","-","*","/"].includes(result.value.toString().slice(-1));
+  return ["+","-","*","/","."].includes(result.value.toString().slice(-1));
 }
